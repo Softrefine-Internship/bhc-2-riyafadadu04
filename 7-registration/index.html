@@ -5,6 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- font-awsome -->
+    <script
+      src="https://kit.fontawesome.com/0e9195495d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <div class="registration-form">
+      <div class="head">
+        <i class="fa-brands fa-slack"></i>
+        <h1 class="heading">Sign in to your account</h1>
+      </div>
+      <div class="form-body">
+        <form class="main-form">
+          <div class="input-group">
+            <label class="input-lable" for="email">Email address</label> <br />
+            <input type="email" required />
+          </div>
+          <div class="input-group">
+            <label class="input-lable" for="password">Password</label> <br />
+            <input type="password" required />
+          </div>
+          <div class="input">
+            <div class="check">
+              <input type="checkbox" class="checkbox" id="remember" />
+              <label class="remember-lable" for="remember">Remember me</label>
+            </div>
+            <div class="pass">
+              <a href="#" class="forgot-link">Forgot Password?</a>
+            </div>
+          </div>
+          <div class="input-btn">
+            <button class="btn" type="submit">Sign in</button>
+          </div>
+        </form>
+        <div class="or-sec">
+          <div class="or-title">
+            <hr />
+            <span>Or continue with</span>
+            <hr />
+          </div>
+          <div class="or-btn">
+            <button class="twit">
+              <i class="fa-brands fa-twitter"></i>Twitter
+            </button>
+            <button class="git">
+              <i class="fa-brands fa-github"></i>Github
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="footer-p">Not a member ?<a href="#"> Start trial for 14 days</a></p>
+      </div>
+    </div>
+  </body>
 </html>
