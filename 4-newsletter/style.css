@@ -1,1 +1,72 @@
-/* write your css here */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main{
+    overflow: hidden;
+    position: absolute;
+}
+.card{
+    margin: 10px 10px 0px 10px;
+    border-radius: 10px;
+    height: 500px;
+    width: 98.5vw;
+    background: #101826;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+.color{
+    width: 800px;
+    height: 200px;
+    top: 350px; 
+    left:400px;
+    background: #613880;
+    border-radius: 50%;
+    position: absolute ;
+    filter: blur(100px);
+}
+.card-head h1{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.card-head p{
+    margin-bottom: 25px;
+    line-height: 25px;
+    color: #d2d2d2;
+}
+.email{
+    background: #8c8c8c3a;
+    border: 1px solid #bdbdbd61;
+    width: 300px;
+    margin-right: 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.contact{
+    margin: 20px;
+    z-index: 1;
+}
+.btn{
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #000000;
+    background: #fff;
+}
+
