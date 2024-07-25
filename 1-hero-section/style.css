@@ -49,18 +49,23 @@ nav {
 
 .list a {
   text-decoration: none;
-  color: #000000;
+  color: #505050;
   font-size: 1.2rem;
 }
 
-.list a:hover , .login:hover , .btn-white:hover{
-  color: #4848e0;
+.list a:hover , .login:hover{
+  color: #000;
+}
+
+.btn-white:hover{
+  color: #0000f5;
 }
 
 .login {
   font-size: 1.2rem;
   display: flex;
   align-items: center;
+  color: #505050; 
   justify-content : center;
   cursor: pointer;
 }
@@ -112,8 +117,7 @@ nav {
 }
 
 .read-more:hover {
-  color: #4848e0d2;
-
+  color: #3c3cb6;
 }
 
 .head {
@@ -140,9 +144,7 @@ nav {
 }
 
 .btn:hover {
-  background:  #ffffff;
-  color: #4848e0;
-  box-shadow: inset 0px 0px 5px #4848e0;
+  background: #3c3cb6;
 }
 
 .btn-white {

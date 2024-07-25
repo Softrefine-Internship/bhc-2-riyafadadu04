@@ -102,7 +102,9 @@ textarea {
     padding: 5px 10px;
     border: none;
 }
-
+.number , .num{
+    width: 100%;
+}
 .num:focus {
     outline: none;
 }
