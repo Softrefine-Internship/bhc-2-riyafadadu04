@@ -33,7 +33,7 @@ body {
 .color {
   width: 800px;
   height: 200px;
-  top: 550px;
+  bottom: -40px;
   left: 400px;
   background: #613880;
   border-radius: 50%;
