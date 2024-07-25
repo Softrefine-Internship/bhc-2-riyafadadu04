@@ -18,7 +18,7 @@
             hivolupate.
           </p>
         </div>
-        <form action="">
+        <form action="#" method="post">
           <div class="inputs">
             <div class="name">
               <div class="first-name">
@@ -28,6 +28,7 @@
                   type="text"
                   name="fname"
                   id="fname"
+                  required
                 />
               </div>
               <div class="first-name">
@@ -37,6 +38,7 @@
                   type="text"
                   name="lname"
                   id="lname"
+                  required
                 />
               </div>
             </div>
@@ -47,6 +49,7 @@
                 type="text"
                 name="company"
                 id="company"
+                required
               />
             </div>
             <div class="email">
@@ -56,8 +59,9 @@
                 type="email"
                 name="email"
                 id="email"
+                required
               />
-            </div>
+            </div> 
             <div class="phone">
               <label for="phone" class="label">Phone Number</label><br />
               <div class="list input">
@@ -69,7 +73,7 @@
                   </select>
                 </div>
                 <div class="number">
-                  <input type="tel" class="num" name="phone" id="phone" />
+                  <input type="number" class="num" name="phone" id="phone" required />
                 </div>
               </div>
             </div>

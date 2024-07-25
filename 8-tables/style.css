@@ -34,6 +34,11 @@ body {
     cursor: pointer;
     background: #4848e0;
 }
+.btn:hover{
+    background: #00000000;
+    color: #4848e0;
+    box-shadow: inset 0 0 3px #4848e0;
+}
 .table{
     padding-top: 20px;
     width: 100%;
@@ -58,17 +63,24 @@ body {
 .item{
     color: #858585;
 }
-.name, .h-item{
+.name{
+    font-weight: 500;
+    text-align: left;
+}
+.h-item{
     font-weight: 600;
     text-align: left;
 }
-.item:nth-child(3) , .h-item:nth-child(3){
+.email{
     width: 35%;
 }
-.item:nth-child(4) , .h-item:nth-child(4){
+.role{
     width: 15%;
 }
-.item:nth-child(5) , .h-item:nth-child(5){
+.edit-link{
+    text-decoration: none;
+}
+.edit{
     width: 5%;
     color: #4848e0;
     font-weight: 500;

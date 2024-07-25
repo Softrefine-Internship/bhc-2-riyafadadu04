@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif; 
 }
 
 .body-data {
@@ -20,8 +20,16 @@ nav {
   padding: 20px 30px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   font-weight: bold;
   justify-content: space-between;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  font-weight: 600;
 }
 
 .logo,
@@ -43,13 +51,22 @@ nav {
   text-decoration: none;
   color: #000000;
   font-size: 1.2rem;
-  padding: 10px;
+}
+
+.list a:hover , .login:hover , .btn-white:hover{
+  color: #4848e0;
 }
 
 .login {
   font-size: 1.2rem;
   display: flex;
   align-items: center;
+  justify-content : center;
+  cursor: pointer;
+}
+
+.icon-left{
+  font-size: 0.9rem;
 }
 
 .main {
@@ -69,6 +86,9 @@ nav {
 }
 
 .anounce {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   border: 1px solid #8281816b;
   padding: 10px 20px;
   border-radius: 50px;
@@ -81,9 +101,19 @@ nav {
   line-height: 25px;
 }
 
-.anounce span {
+.read-more {
+  display: flex;
+  align-items: center;
+  justify-content : center;
   color: #4848e0;
   font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  color: #4848e0d2;
+
 }
 
 .head {
@@ -109,11 +139,21 @@ nav {
   cursor: pointer;
 }
 
+.btn:hover {
+  background:  #ffffff;
+  color: #4848e0;
+  box-shadow: inset 0px 0px 5px #4848e0;
+}
+
 .btn-white {
+  display: flex;
+  align-items: center;
+  justify-content : center;
   background: transparent;
   border: none;
   font-size: 1rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .learn {
